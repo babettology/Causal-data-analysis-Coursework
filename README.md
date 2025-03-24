@@ -3,14 +3,14 @@
 # Part A
 
 Q1a.i.
+![t1_page-0001](https://github.com/user-attachments/assets/8b5bcd2a-c30c-4557-9bae-5b121f716180)
 
 
 
 From Table 1, the first-stage regression presents a negative relationship between the log of the distance from the Turkish coastline and the likelihood of a municipality receiving immigrants. Specifically, the estimated coefficient for log(distance) is -0.249, which is statistically significant (p<0.01). This implies that for every 1% increase in the distance of a municipality from the Turkish coastline, the probability of a municipality receiving immigrants decreases by 0.0025 percentage points, or one-quarter of a percentage point. R-square value is high, where 81.6% of the variance is explained by the model, suggesting high explanatory power.  
 
 ii.  
-[T2.pdf](https://github.com/user-attachments/files/19428854/T2.pdf)
-
+![T2_page-0001](https://github.com/user-attachments/assets/72dd7737-13fd-45d4-b6cb-f477534c738e)
 
 In table 2, F-statistic is 152.59 and statistically significant (p<0.01). 
 
@@ -22,16 +22,14 @@ ii. The exclusion restriction assumptions entails that the distance from Turkish
 
 c. 
 Table 3 : IV regression results for hostility toward asylum seekers and immigrants
-
-[t3.pdf](https://github.com/user-attachments/files/19428864/t3.pdf)
-
+![t3_page-0001](https://github.com/user-attachments/assets/ac7f4bed-e151-4647-bb30-8268c4a4274b)
 
 As seen on table 3, the treatment coefficients indicate that hosting immigrants increases hostility toward asylum seekers by 0.218 units and hostility toward immigrants by 0.212 units on the PCA-derived scale. While these increases are small, they indicate more negative attitudes when immigrants are hosted. The models are clustered by municipalities, with standard errors of 0.066 (model 1) and 0.084 (model 2), reflecting relatively precise estimates. However, despite statistical significance, the model explains only 1.4% of the variance, suggesting that other factors influence hostility toward these groups.
 
 d.i. Compliers are municipalities that always receive immigrants only if there are within 40 km of the Turkish coats, and never if there are further away. The always takers are municipalities that always receive immigrants regardless of distance.  
 
 ii&iii, 
-[t4.pdf](https://github.com/user-attachments/files/19428870/t4.pdf)
+![t4_page-0001](https://github.com/user-attachments/assets/0335f9f1-2297-4f83-8157-45c798144d9c)
 
 The proportion of compliers is 0.93, while the intent to treat is 0.22. The CACE of receiving immigrants towards asylum seekers is 0.24. 
 
@@ -52,12 +50,12 @@ The plot shows no significant difference before and after the threshold (p>0.05)
 c).  The sharp RD estimates a LATE of -0.064, suggesting Democratic sheriff leadership corresponds to a 6.4 percentage point decrease in ICE detention request enforcement rates at the electoral threshold. However, this effect is not statistically significant (p = 0.196) which prevents us from making a definitive conclusion about the relationship between sheriff partisanship and enforcement rate. 
 
 d) 
-[F2.pdf](https://github.com/user-attachments/files/19428884/F2.pdf)
-		
+![F2_page-0001](https://github.com/user-attachments/assets/28ee3584-b03d-42db-be21-e08e61bf2dc2)
+	
 From Table 7, the RD coefficients, standard error and confidence intervals (95%) decrease from bandwidth of 2 to bandwidth of 10.  This suggests that there is more variance when there is a smaller number of observations, suggesting that narrower bandwidths produce larger but less precise estimates. Yet, none of the p-values are statistically significant suggesting no evidence in ICE request enforcement based on sheriff partisanship.
 
 e)   
-[t8.pdf](https://github.com/user-attachments/files/19428885/t8.pdf)
+![t8_page-0001](https://github.com/user-attachments/assets/47a35534-2033-4e10-baf6-11f5f93f049f)
 
 From Table 6, shows a fixed effects model controls for time-invariant characteristics. The model coefficient of -0.017 suggests that on average the election of a democratic sheriff correlates with a 1.7 percentage point decrease in the enforcement of ICE enforcement compared to Republican sheriffs within the same county. While this suggests a negative relationship, the result is not statistically significant (p-value = 0.612), meaning that we lack sufficient evidence to conclude that sheriff partisanship impacts detention enforcement.
 
@@ -131,8 +129,7 @@ To enter their respective video conferences, respondent’s ender their unique I
 To ensure the validity of our results, we will use intention-to-treat analysis, ensuring that all participants regardless of their level of compliance with the treatment, are included in the final analysis. Given the sensibility of the study and logistical technicalities, ITT preserves the integrity of randomisation while accounting for potential attrition and non-compliance. We account for missing data with mean imputation.
 
 We then rely on an estimate linear regression model.
-
-[lm1.pdf](https://github.com/user-attachments/files/19428901/lm1.pdf)
+![lm1_page-0001](https://github.com/user-attachments/assets/f485187f-ae0f-4494-b8aa-8b1bf62c216a)
 
 
 The coefficients β1, β2, β3 represent the difference in perceived popularity for RN, Modem, and Placebo respectively, compared to the control group. This single model allows direct comparison of RN and Modem convictions while accounting for baseline covariates and error terms, minimising bias. We should check for statistical significance treatment effect coefficient using hypothesis tests, allowing us to reject the null hypothesis. 
