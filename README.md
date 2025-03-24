@@ -3,7 +3,7 @@
 # Part A
 
 Q1a.i.
-[t1.pdf](https://github.com/user-attachments/files/19428852/t1.pdf)
+
 
 
 From Table 1, the first-stage regression presents a negative relationship between the log of the distance from the Turkish coastline and the likelihood of a municipality receiving immigrants. Specifically, the estimated coefficient for log(distance) is -0.249, which is statistically significant (p<0.01). This implies that for every 1% increase in the distance of a municipality from the Turkish coastline, the probability of a municipality receiving immigrants decreases by 0.0025 percentage points, or one-quarter of a percentage point. R-square value is high, where 81.6% of the variance is explained by the model, suggesting high explanatory power.  
@@ -36,7 +36,7 @@ ii&iii,
 The proportion of compliers is 0.93, while the intent to treat is 0.22. The CACE of receiving immigrants towards asylum seekers is 0.24. 
 
 iv. 
-[t5.pdf](https://github.com/user-attachments/files/19428873/t5.pdf)
+![t5_page-0001](https://github.com/user-attachments/assets/cc91fd75-7d37-4937-bc4c-996e887503a0)
 
 The p-value of 4.69e-07 indicates a highly significant causal effect of receiving immigrants on hostility toward asylum seekers, were on average compliant municipalities, experienced a 0.24 unit increase in hostility.
 
@@ -45,7 +45,7 @@ Q2 a. An RDD estimates the causal effect of sheriff partisanship on enforcement 
 b. Firstly, composite treatment violation could occur if other policy changes occurred at the threshold independently of the treatment. This is unlikely as there are no significant concurrent policy changes directly linked to the electoral threshold. 
 Secondly, sorting around the threshold would violate randomisation, as some sheriffs vote share would have different potential outcomes than those not manipulated. This violation is the case of fraud election, where some sheriffs would be pushed it across or below the threshold making them no longer comparable to control. To assess this, we perform a McCray density test. 
 
-[f1.pdf](https://github.com/user-attachments/files/19428880/f1.pdf)
+![f1_page-0001](https://github.com/user-attachments/assets/5e1f01f0-bd19-4fcb-8c45-7a62cc99b87a)
 
 The plot shows no significant difference before and after the threshold (p>0.05), suggesting minimal evidence of running variable manipulation.
 
